@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         AppCenter.start(getApplication(), "3f1949c0-56da-4de9-9830-666d563e22a4",
                 Analytics.class, Crashes.class);
 
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
