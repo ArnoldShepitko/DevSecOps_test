@@ -9,6 +9,10 @@ locale="en_US"
 if [ "$APPCENTER_BRANCH" == "master"];
 then
   msbuild $APPCENTER_SOURCE_DIRECTORY/$uiTestProjectName/p:Configuration=Release
-  appcenter test run uitest --app $appName --devices [DEVICE SET ID] --app-path app/build/outputs/apk/debug/app-debug.apk \
-   --test-series "master" --locale $locale --build-dir app/build/outputs/apk/debug/ --token $appCenterLoginApiToken
+  appcenter test run espresso --app "shepitko.arnold-gmail.com/ToDo-List-DevSecops" --devices aee126b6 \
+  --app-path app/build/outputs/apk/debug/app-debug.apk --test-series "master" --locale locale --build-dir app/build/outputs/apk/debug/
 fi
+
+
+
+
