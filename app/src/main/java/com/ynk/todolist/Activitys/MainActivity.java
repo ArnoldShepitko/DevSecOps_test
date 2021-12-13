@@ -22,11 +22,9 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
-
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
-
 import com.ynk.todolist.Fragments.FragmentTodoList;
 import com.ynk.todolist.Listeners.MainListener;
 import com.ynk.todolist.Model.User;
